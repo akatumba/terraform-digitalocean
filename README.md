@@ -1,5 +1,5 @@
 # terraform-digitalocean
-playground for terraform and digital ocean provider. creates a digitalocean droplet with specified domain name
+playground for terraform and digital ocean provider. creates a digitalocean droplet with installed nginx reachable by specified domain name
 
 # Usage
 1. [Install Terraform](http://www.terraform.io/intro/getting-started/install.html)
