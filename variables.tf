@@ -13,3 +13,8 @@ variable "pvt_key" {
 variable "ssh_fingerprint" {
 	description = "SSH fingerprint. "
 }
+
+variable "domain_name" {
+	description = "domain name for droplet. e.g. www.example.com"
+}
+

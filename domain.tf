@@ -1,6 +1,6 @@
 # Create a new domain record
 resource "digitalocean_domain" "default-domain" {
-   name = "www.example.com"
+   name = "${var.domain_name}"
    ip_address = "${digitalocean_droplet.ubuntu-www.ipv4_address}"
 }
 
